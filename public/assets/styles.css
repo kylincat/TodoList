@@ -1,16 +1,17 @@
 body {
-    background: #0d1521;
+    background: #a2a4a7;
     font-family: tahoma;
     color: #989898;
 }
 
 #todo-table {
     position: relative;
-    width: 95%;
+    width: 75%;
     background: #090d13;
-    margin: 0 auto;
+    margin: 150px auto;
     padding: 20px;
     box-sizing: border-box;
+    box-shadow: #23282e 15px 15px 15px;
 }
 
 #todo-table form:after {
@@ -21,7 +22,7 @@ body {
 }
 
 input[type="text"] {
-    width: 30%;
+    width: 70%;
     padding: 20px;
     background: #181c22;
     border: 0;
@@ -32,7 +33,7 @@ input[type="text"] {
 
 button {
     padding: 20px;
-    width: 30%;
+    width: 25%;
     float: left;
     background: #23282e;
     border: 0;
